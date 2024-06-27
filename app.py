@@ -45,7 +45,7 @@ def create_car():
     )
     db.session.add(new_car)
     db.session.commit()
-    return jsonify({'message': 'Car created successfully!'})
+    return jsonify({'message': 'Car created successfully! test pipeline'})
 
 
 # Update an existing car
